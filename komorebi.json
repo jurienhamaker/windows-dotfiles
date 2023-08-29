@@ -1,0 +1,118 @@
+{
+	"$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/master/schema.json",
+	"app_specific_configuration_path": "$Env:USERPROFILE/.komorebi/applications.yaml",
+	"window_hiding_behaviour": "Cloak",
+	"cross_monitor_move_behaviour": "Insert",
+	"alt_focus_hack": true,
+	"default_workspace_padding": 3,
+	"default_container_padding": 3,
+	"active_window_border": false,
+	"active_window_border_colours": {
+		"single": { "r": 66, "g": 165, "b": 245 },
+		"stack": { "r": 256, "g": 165, "b": 66 },
+		"monocle": { "r": 255, "g": 51, "b": 153 }
+	},
+	"monitors": [
+		{
+			"workspaces": [
+				{
+					"name": "Chats",
+					"layout": "Rows",
+					"workspace_rules": [
+						{
+							"id": "Ferdium.exe",
+							"kind": "Exe"
+						},
+						{
+							"id": "Discord.exe",
+							"kind": "Exe"
+						}
+					]
+				},
+				{
+					"name": "Mail",
+					"layout": "Rows",
+					"workspace_rules": [
+						{
+							"id": "Slack.exe",
+							"kind": "Exe"
+						},
+						{
+							"id": "Spark Desktop.exe",
+							"kind": "Exe"
+						}
+					]
+				},
+				{
+					"name": "Spotify",
+					"layout": "Rows",
+					"workspace_rules": [
+						{
+							"id": "Spotify.exe",
+							"kind": "Exe"
+						}
+					]
+				}
+			]
+		},
+		{
+			"workspaces": [
+				{
+					"name": "Main",
+					"layout": "BSP",
+					"workspace_padding": 50,
+					"inital_workspace_rules": [
+						{
+							"id": "firefox.exe",
+							"kind": "Exe"
+						}
+					]
+				},
+				{
+					"name": "IDE",
+					"layout": "BSP",
+					"workspace_padding": 50,
+					"workspace_rules": [
+						{
+							"id": "Code.exe",
+							"kind": "Exe"
+						}
+					]
+				},
+				{
+					"name": "Console",
+					"layout": "BSP",
+					"workspace_padding": 50,
+					"workspace_rules": [
+						{
+							"id": "wt.exe",
+							"kind": "Exe"
+						},
+						{
+							"id": "WindowsTerminal.exe",
+							"kind": "Exe"
+						}
+					]
+				},
+				{
+					"name": "Gitkraken",
+					"layout": "BSP",
+					"workspace_padding": 50,
+					"workspace_rules": [
+						{
+							"id": "gitkraken.exe",
+							"kind": "Exe"
+						},
+						{
+							"id": "wslg.exe",
+							"kind": "Exe"
+						}
+					]
+				},
+				{ "name": "VIII", "layout": "BSP", "workspace_padding": 50 },
+				{ "name": "IX", "layout": "BSP", "workspace_padding": 50 },
+				{ "name": "X", "layout": "BSP", "workspace_padding": 50 }
+			]
+		}
+	]
+}

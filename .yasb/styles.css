@@ -1,0 +1,149 @@
+* {
+	font-family: 'JetBrainsMono Nerd Font';
+	font-size: 14px;
+	color: #f2e5bc;
+}
+
+.bar {
+	/* background: rgba(29, 32, 33, 0.3); */
+	/* border: 1px solid #504945; */
+	padding: 0px 0px;
+	/* height: 80px; */
+
+	margin: 0 3px 0 3px;
+	border-radius: 5px;
+}
+
+.widget {
+	padding: 0 5px;
+	border-radius: 5px;
+}
+
+.container-right .widget {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border-radius: 5px;
+}
+
+.container-right .widget * {
+	color: #bababa;
+}
+
+.komorebi-workspaces {
+	background-color: #282828;
+	margin-left: 5px;
+}
+
+.ws-btn {
+	padding: 4px;
+	background: rgba(255, 255, 255, 0);
+	margin: 2px 1px;
+	font-size: 12px;
+	color: #515151;
+}
+
+.ws-btn:hover {
+	color: #bababa;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.ws-btn.active {
+	color: white;
+}
+
+.custom-widget {
+	padding: 2px 6px;
+	font-size: 14px;
+	background: #282828;
+	margin-right: 5px;
+}
+
+.custom-widget .icon {
+	font-size: 13px;
+}
+
+.custom-widget:hover {
+	background: #282828;
+}
+
+.custom-widget .icon.icon-left {
+	margin-right: 5px;
+}
+
+.custom-widget .icon.icon-right {
+	margin-left: 5px;
+}
+
+.custom-widget.hostname-widget {
+	background: #282828;
+}
+
+.custom-widget.terminal-widget {
+	font-size: 14px;
+}
+
+.cpu-widget .label,
+.memory-widget .label,
+.battery-widget .label {
+	background: #282828;
+	padding: 0 5px;
+	font-size: 14px;
+	border-radius: 5px;
+}
+
+.clock-widget .label {
+	color: #bababa;
+}
+
+.battery-widget {
+	padding-right: 2px;
+}
+
+.battery-widget .label.status-critical {
+	background: #fb4934;
+}
+
+.battery-widget .label.status-low {
+	background: #fe8019;
+}
+
+.battery-widget .label.status-medium {
+	background: #fabd2f;
+}
+
+.battery-widget .label.status-high {
+	background: #b8bb26;
+}
+
+.battery-widget .label.status-full {
+	background: #8ec07c;
+}
+
+.battery-widget .label.status-charging {
+	background: #8ec07c;
+}
+
+.battery-widget,
+.memory-widget {
+	margin: 0;
+}
+
+.active-window-widget {
+	margin-left: 5px;
+	background-color: #375753;
+}
+
+.active-window-widget .label {
+	padding: -5px 7px 0 7px;
+	color: #bababa;
+	/* background: #83a598; */
+	margin-bottom: -1px;
+	border-radius: 3px;
+	margin: 2px;
+}
+
+.komorebi-active-layout .label {
+	color: #bababa;
+	margin: 0px 0px 0px 4px;
+}
